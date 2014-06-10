@@ -9,7 +9,7 @@
   </div>
 </div>
 <h3>Recent Posts</h3>
-<ul>
+<ul class="bulletless">
   {% for post in site.posts limit: 5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}

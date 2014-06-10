@@ -17,3 +17,9 @@ a.inline{
 .center{
 	text-align: center;
 }
+
+.bulletless{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
