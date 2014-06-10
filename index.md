@@ -3,19 +3,16 @@ title: Home
 layout: default
 name: home
 ---
-###Home
-I am a software developer
-
 <div class="row">
-	<div class="col-md-4">
-		<ul id="resume_list" class='bulletless'>
-			<li item="skills">Skills</li>
-			<li item="projects">Projects</li>
-			<li item="experience">Experience</li>
-			<li item="education">Education</li>
+	<div class="col-md-2">
+		<ul id="resume_list" class='bulletless list-group'>
+			<li class="list-group-item active" item="skills">Skills</li>
+			<li class="list-group-item" item="projects">Projects</li>
+			<li class="list-group-item" item="experience">Experience</li>
+			<li class="list-group-item" item="education">Education</li>
 		</ul>
 	</div>
-	<div id="resume_content" class="col-md-8">
+	<div id="resume_content" class="col-md-10">
 		<div id="skills" class="content" style="">
 			<div class="panel panel-default">
 			  <div class="panel-heading">
