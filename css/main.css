@@ -23,3 +23,8 @@ a.inline{
 	padding: 0;
 	margin: 0;
 }
+
+#list{
+	border-right: 1px solid black;
+	/*width: 25%;*/
+}
