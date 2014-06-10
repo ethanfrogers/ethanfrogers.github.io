@@ -28,3 +28,7 @@ a.inline{
 	border-right: 1px solid black;
 	/*width: 25%;*/
 }
+
+#resume_list{
+	cursor: pointer;
+}
