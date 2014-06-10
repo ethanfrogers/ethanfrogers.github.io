@@ -1,0 +1,19 @@
+---
+title: Blog
+layout: default
+name: blog
+---
+{% for post in site.posts limit: 10 %}
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="/assets/{{post.thumbnail}}" alt="...">
+  </a>
+  <div class="media-body">
+    <div class="page-header">
+  		<h1>{{post.title}} <small>{{ post.date | date: "%m-%d-%Y" }}</small></h1>
+	</div>
+	<a href="{{post.url}}">Read...</a>
+    
+  </div>
+</div>
+{% endfor %}

@@ -1,0 +1,11 @@
+.right{
+	float: right;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.footer{
+	text-align: center;
+}

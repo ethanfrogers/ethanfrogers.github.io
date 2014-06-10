@@ -1,0 +1,13 @@
+<div class="thumbnail">
+  <img src="/assets/profile.jpg" alt="...">
+  <div class="caption">
+    <h3>About Me</h3>
+    <p>Web Application Developer. Currently developing awesome things for <a href="https://twitter.com/SupplyHog">@Supply Hog</a> in Chattanooga, TN. Specialize in JavaScript, writing frontends for applications using popular libraries such as Backbone.js and jQuery.</p>
+  </div>
+</div>
+<h3>Recent Posts</h3>
+<ul>
+  {% for post in site.posts limit: 5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
