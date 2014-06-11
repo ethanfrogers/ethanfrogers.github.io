@@ -32,3 +32,6 @@ a.inline{
 #resume_list{
 	cursor: pointer;
 }
+#resume_list li{
+	padding: 5px;
+}
